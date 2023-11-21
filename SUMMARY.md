@@ -1,7 +1,7 @@
 # Table of contents
 
-* [README](README.md)
-* [Modular Pages CMS](modular-pages-cms.md)
+* [Modular Pages CMS](README.md)
+* [Modular Pages CMS](modular-pages-cms-1.md)
 * [Como criar uma página modular](como-criar-uma-pagina-modular/README.md)
   * [Overview](como-crear-una-pagina-modular/overview.md)
   * [Conteúdo](como-crear-una-pagina-modular/contenido.md)
