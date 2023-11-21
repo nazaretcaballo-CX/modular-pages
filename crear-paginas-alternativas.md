@@ -1,47 +1,43 @@
-# Crear páginas alternativas
+# Criar páginas alternativas
 
-Del mismo modo que es posible configurar [módulos alternativos](como-crear-una-pagina-modular/contenido.md#crear-un-grupo-de-modulos-alternativos), sucede parecido con las páginas.&#x20;
+Da mesma forma que é possível configurar [módulos alternativos](como-crear-una-pagina-modular/contenido.md#crear-un-grupo-de-modulos-alternativos), o mesmo acontece com as páginas.
 
-Puede ser que necesites crear la misma página pero con apariencia significativamente diferente para un grupo de usuarios.
+Talvez seja necessário criar a mesma página, mas com uma aparência significativamente diferente, para um grupo de usuários.
 
-En ese caso, sobre la página que necesites, desde la pantalla principal de páginas, haz clic en **+Add new page**.
+Nesse caso, na página que você precisa, na tela de páginas principais, clique em **+Add new page**.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-La condición necesaria es que añadas una audiencia para esta nueva página para que tenga sentido que tengas esa nueva "versión" de la página para una audiencia determinada.
+A condição necessária é que você adicione um público para esta nova página, para que faça sentido ter aquela nova “versão” da página para um determinado público.
 
-Ejemplo:
+Exemplo:
 
-_Alice está creando una página de inicio de la app con varios módulos. Pero sabe que para un determinado grupo de usuarios, aquellos que aún no disponen de su usuario porque acaban de darse de alta con la app, esa página de inicio es totalmente distinta._
+*Alice está criando uma página inicial do aplicativo com vários módulos. Mas você sabe que, para um determinado grupo de usuários, aqueles que ainda não têm nome de usuário porque acabaram de se cadastrar no aplicativo, essa página inicial é totalmente diferente.*
 
-_¿Cómo lo hace Alice?_
+*Como Alice faz?*
 
-_Una vez creada la página de inicio con los módulos crea una página alternativa en la que indica que esa página es para los usuarios con la audiencia `new-user`. En esa página incluye un único módulo, que lleva solo el módulo de acceso a preguntas frecuentes._
+*Depois que a página inicial for criada com os módulos, cria uma página alternativa indicando que esta página é para usuários com o público `new-user`. Nessa página, inclui um único módulo, que contém apenas o módulo de acesso às perguntas mais frequentes.*
 
-_De esa manera Alice puede gestionar mucho mejor el contenido que ven unos y otros usuarios._
+*Desta forma, Alice pode gerenciar muito melhor o conteúdo que outros usuários veem.*
 
-Otro ejemplo de uso muy frecuente es cuando las páginas están relacionadas con productos en cuyo caso puede ser muy útil, e incluso necesario, crear páginas alternativas.
+Outro exemplo de utilização muito frequente é quando as páginas estão relacionadas com produtos, caso em que pode ser muito útil, e até necessário, criar páginas alternativas.
 
-_Ejemplo_
+*Exemplo*
 
-_Alice necesita crear la página de principal de línea móvil pero esas páginas están relacionadas con el producto móvil y son diferentes si el usuario es prepago, si el usuario es postpago y además tiene un plan contratado o si el usuario tiene una línea postpago suelta._
+*Alice precisa criar a página inicial da linha móvel, mas essas páginas estão relacionadas ao produto móvel e são diferentes se o usuário for pré-pago, se o usuário for pós-pago e também tiver um plano contratado, ou se o usuário tiver uma linha pós-paga avulsa.*
 
-_Para ello Alice crea tres páginas alternativas, una para cada situación, a las que indica las audiencias correspondientes y sobre las que añadirá los módulos que considere._
+*Para isso, Alice cria três páginas alternativas, uma para cada situação, às quais indica os públicos correspondentes e nas quais irá adicionar os módulos que considera.*
 
-### Cómo ordenar las páginas alternativas
+### Como classificar páginas alternativas
 
-Para que el sistema evalúe qué página muestra al usuario de la app, necesita ordenar esas páginas.&#x20;
+Para que o sistema avalie qual página exibe ao usuário do aplicativo, ele precisa classificar essas páginas.
 
-{% hint style="info" %}
-Recuerda que **el sistema evalúa de arriba abajo**, es decir, la primera que coincida con el usuario, empezando por arriba, será la que muestre en la app, sin evaluar las siguientes.
+{% hint style="info" %} Lembre-se que **o sistema avalia de cima para baixo**, isto é, o primeiro que corresponder ao usuário, começando de cima, será o exibido no app, sem avaliar os seguintes.
 
-Ten muy en cuenta esto de cara a decidir el orden en que colocas estas páginas.
-{% endhint %}
+Tenha isso em mente ao decidir a ordem em que você colocará essas páginas. {% endhint %}
 
-Mueve las páginas con _Drag\&Drop_ y cuando las tengas colocadas como consideras haz clic en **Save order.**
+Mova as páginas com *Drag&amp;Drop* e quando as tiver posicionadas como deseja, clique em **Save order.**
 
-{% hint style="warning" %}
-Solo puedes tener una página que **no contenga audiencias** y esa página tiene que estar siempre en **último lugar**. El sistema te avisa si esto no se cumple e intentas guardar un orden incorrecto.
-{% endhint %}
+{% hint style="warning" %} Você só pode ter uma página que **não contenha públicos** e essa página deve ser sempre **a última**. O sistema avisa se isso não for atendido e você tenta salvar um pedido incorreto. {% endhint %}
 
 <figure><img src=".gitbook/assets/MovePages.gif" alt=""><figcaption></figcaption></figure>
