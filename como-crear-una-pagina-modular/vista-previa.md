@@ -1,60 +1,54 @@
-# Vista previa
+# Preview
 
-En este último paso dispones de un resumen de la página modular que has configurado.
+In this last step you will see a summary of the modular page that you have configured.
 
-Además, es desde este paso desde donde puedes iniciar un test para probar el contenido antes de impactar a los usuarios.
+In this step, you have an opportunity to test the content before it impacts users.
 
 <figure><img src="../.gitbook/assets/Overview_ModularPages.png" alt=""><figcaption></figcaption></figure>
 
-Este paso te da información sobre:
+This step gives you information about:
 
-* **Page name**. Título interno de la página modular. Este título no es el que se muestra a los usuarios sino que es el nombre interno que has indicado en el paso **1 Overview**.
-* **Screen name**: Valor por defecto que toma la página modular en función del **Page name** que hayas indicado en el paso **1 Overview**. Este campo es usado para realizar el tracking de la página modular.
-* **Product type:** Indica el tipo de página modular que has creado. Recuerda que el contenido de la página puede depender de información o productos del usuario o puede estar relacionada con un producto o paquete de productos (**User related** o **Product related**).
-* **Url ID**. ID de la página modular que estás creando o editando.
-* **User Group**. Indica si la página está configurada para un determinado grupo de usuarios. En caso de no estarlo el valor será _All users_.
+- **Page name**. Internal title of the modular page. This title is not the one that is shown to users. Rather, it is the internal name that you indicated in step **1 Overview**.
+- **Screen name**. Default value that the modular page takes based on the **Page name** that you have indicated in step **1 Overview**. This field is used to track the modular page.
+- **Product type**. Indicates the type of modular page you have created. Remember that the content of the page may depend on user information or products, or may be related to a product or product package (**User related** or **Product related**).
+- **URL ID**. ID of the modular page you are creating or editing.
+- **User Group**. Indicates whether the page is configured for a specific user group. If it isn't, the value will be *All users*.
 
-Haz clic en **Save** para guardar los campos o haz clic en **Save and publish** para guardar y publicar los cambios.
+Click **Save** to save the fields or **Save and publish** to save and publish your changes.
 
-### Cómo crear un test
+### How to create a test
 
-Desde este último paso puedes también crear un test para probar el contenido que has configurado antes de impactar a una amplia masa de usuarios.
+In this last step you are able to test the content you have configured before it impacts a wide mass of users.
 
 #### Test information
 
-Haz clic en **Create test** para comenzar un test.&#x20;
+Click **Create test** to start a test.
 
 <figure><img src="../.gitbook/assets/CreateTest.png" alt=""><figcaption></figcaption></figure>
 
-* **Description (optional)**. Usa este campo para describir los cambios o el contenido que quieres probar. Es un campo opcional pero es un muy recomendable que lo rellenes porque te ayudará a identificar rápidamente el test que estás creando.
-* &#x20;**User IDs (optional)**. Añade uno o más user IDs, separados únicamente por comas (sin espacios), en los que quieras hacer las pruebas. Este campo solo admite valores numéricos.
+- **Description (optional)**. Use this field to describe the changes or content you want to test. This is an optional field, but it is highly recommended to fill it out since it will help you quickly identify the test you are creating.
+-  **User IDs (optional)**. Add one or more user IDs that you wish to test, separated only by commas (no spaces). This field only accepts numeric values.
 
-Haz clic en **Launch test** para comenzar el test y poder probar el contenido.
+Click on **Launch test** to test the content.
 
-{% hint style="info" %}
-**Cómo obtener el user ID**
+{% hint style="info" %} **How to obtain the user ID**
 
-1. Asegúrate de tener descargada la versión Enterprise de la app.
-2. Abre la app
-3. Agita el teléfono
-4. Accede a la sección "Autentication"
-5. el número que necesitas es el del campo **User ID**
-{% endhint %}
+1. Make sure you have the Enterprise version of the app downloaded.
+2. Open the app
+3. Shake the phone
+4. Access the "Authentication" section
+5. The number you're looking for is the one in the **User ID** field {% endhint %}
 
-¿Necesitas más información sobre cómo probar el contenido? 👇🏼
+Need more information on how to test content? 👇🏼
 
-{% content-ref url="../como-probar-el-contenido.md" %}
-[como-probar-el-contenido.md](../como-probar-el-contenido.md)
-{% endcontent-ref %}
+{% content-ref url="../how-to-test-the-content.md" %} [how-to-test-the-content.md](../como-probar-el-contenido.md) {% endcontent-ref %}
 
-***
+---
 
-Cuando hayas terminado de configurar todo el contenido de la página haz clic en **Publish** para publicar el contenido.
+When you have finished setting up all the content on the page, click **Publish** to publish the content.
 
-Si el contenido nunca ha sido publicado puedes salvar los cambios sin tener que publicarlos. Haz clic en **Save**. La página queda guardada en estado **DRAFT**.
+If the content hasn't been published yet, you can save the changes without having to publish them. By clicking **Save**, the page will be saved as a **DRAFT**.
 
-También puedes pausar la página para que no la vean los usuarios de la app. Eso sí, si has hechos cambios en la página primero debes guardarlos y publicarlos y posteriormente ya podrás pausar la página haciendo clic en **PAUSE**.&#x20;
+You can also pause the page so that it is not seen by app users. However, if you have made changes to the page, you must save and publish them first. You can then pause the page by clicking **PAUSE**.
 
-{% hint style="success" %}
-Recuerda que los cambios no se guardan de manera automática y que necesitas llegar al último paso para guardarlos y publicar los cambios. 🤓
-{% endhint %}
+{% hint style="success" %} Remember that changes are not saved automatically, and you'll need to get to the last step to save or publish the changes. 🤓 {% endhint %}
