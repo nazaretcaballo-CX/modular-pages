@@ -1,6 +1,6 @@
 # Overview
 
-In this first step, you'll need to provide general information about the page you are creating.
+In this first step, you'll need to provide general information about the page you are creating (quitar este texto que es de prueba y solo es para subir cambios).
 
 <figure><img src="../.gitbook/assets/NewPage.png" alt=""><figcaption></figcaption></figure>
 
