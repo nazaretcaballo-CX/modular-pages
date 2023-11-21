@@ -1,234 +1,203 @@
-# Contenido
+# Conteúdo
 
-El contenido de una página modular se configura mediante la inserción de módulos, la elección del orden de esos módulos dentro de la página así como la configuración de las secciones que los contienen.
+O conteúdo de uma página modular é configurado através da inserção de módulos, a escolha da ordem desses módulos dentro da página, bem como a configuração das seções que os contêm.
 
-Este paso está dividido en dos partes:
+Esta etapa é dividida em duas partes:
 
-* En la parte **izquierda** están los **módulos ordenados** tal y como quieras que se vean en la app.
-* En la parte **derecha** una **previsualización**, lo más fiel posible, de lo que verá el usuario de la app.
+- Na parte **esquerda** estão os **módulos organizados** como você deseja que sejam vistos no app.
+- Na parte **direita** uma **pré-visualização** , o mais fiel possível, do que o usuário do app verá.
 
-{% hint style="info" %}
-Es importante que tengas en cuenta que además de lo que veas en la previsualización de la derecha, los módulos pueden estar configurados para mostrarse a los usuarios en función de una serie de premisas, entre otras, las audiencias. Por lo tanto, que tú lo veas en esa previsualización no tiene por qué ser exactamente cómo lo vea el usuario.
+{% hint style="info" %} É importante que você tenha em mente que, além do que você vê na visualização à direita, os módulos podem ser configurados para serem exibidos aos usuários com base em uma série de premissas, entre outras, os públicos. Portanto, o que você vê nessa pré-visualização não precisa ser exatamente como o usuário vê.
 
-Si quieres visualizar exactamente cómo ve un usuario concreto una página modular puedes hacer un [Test](../como-probar-el-contenido.md).
-{% endhint %}
+Se quiser ver exatamente como um usuário específico visualiza uma página modular, você pode fazer um [Teste](../como-probar-el-contenido.md). {% endhint %}
 
-Además, la página esta dividida en dos partes, una seción **Header**, que siempre verás al crear una nueva página, y el resto de la página que podrá contener una o más secciones, en función de cómo quieras organizar el contenido.
+Além disso, a página está dividida em duas partes: com uma seção **Header** , que você sempre verá ao criar uma nova página, e o resto da página que pode conter uma ou mais seções, dependendo de como deseja organizar o conteúdo.
 
-## Cómo crear una sección
+## Como criar uma seção
 
-Para crear una nueva sección haz clic en **+New section**. Rellena los campos necesarios en la modal que se abre.
+Para criar uma nova seção, clique em **+New section**. Preencha os campos necessários no modal que se abre.
 
 <figure><img src="../.gitbook/assets/NewSectionWindow.png" alt=""><figcaption></figcaption></figure>
 
-**Internal name**. Este campo es de uso interno y sirve para que puedas identificar y diferenciar correctamente cada sección de la página modular. Es un campo obligatorio.
+**Internal name** . Este campo é de uso interno e serve para que você possa identificar e diferenciar corretamente cada seção da página modular. É um campo obrigatório.
 
-💡Intenta que el nombre sea lo más descriptivo posible lo cual te ayudará a saber qué tipo de módulos y qué información va contenida en la sección.
+💡Tente deixar o nome o mais descritivo possível, pois isto ajudará a saber que tipo de módulos e quais informações estão contidas na seção.
 
 ### Design
 
-En esta pestaña indica el color de fondo de la sección. Usa el desplegable **Background color**.
+Nesta aba, indique a cor de fundo da seção. Use o menu suspenso **Background color**.
 
 ### Content
 
-En esta pestaña configura los campos de sección que sí verá el usuario de la app.
+Nesta aba, configure os campos da seção que o usuário do app verá.
 
 <figure><img src="../.gitbook/assets/section_content.png" alt=""><figcaption></figcaption></figure>
 
-* **Section title (optional)**. Indica el título de sección que verá el usuario de la app cuando se le muestre la página modular que estás creando o editando. Es un campo opcional y por tanto no se verá si no indicas un valor.
+- **Section title (opcional)**. Indica o título da seção que o usuário do app verá quando for exibida a página modular que você está criando ou editando. É um campo opcional e, portanto, não será visto se você não indicar um valor.
 
-{% hint style="success" %}
-Una sección puede o no llevar título de sección. Igualmente el contenido (módulos) de la sección se verán siempre que le apliquen al usuario.
-{% endhint %}
+{% hint style="success" %} Uma seção pode ou não ter um título de seção. Da mesma forma, o conteúdo (módulos) da seção será visto sempre que correspondam ao usuário. {% endhint %}
 
-* **Section description (optional)**. Indica una descripción sobre el contenido de la sección. Esta descripción la verá el usuario de la app. Es un campo opcional.
-* **No link**. Opción seleccionada por defecto. Indica que la sección no llevará un enlace.
-* **With link**. Selecciona esta opción para añadir un enlace en la sección.&#x20;
-  * **Link text action**. Indica el texto del enlace
-  * **Select type URL**:
-    * **URL**. Selecciona esta opción para rellenar manualmente el siguiente campo **URL**.
-    * **Preconfigured**. Selecciona esta opción para seleccionar una de las URL preconfiguradas del campo URL.
+- **Section description (opcional)**. Indica uma descrição do conteúdo da seção. Essa descrição será vista pelo usuário do app. É um campo opcional.
+- **No link**. Opção selecionada por padrão. Indica que a seção não conterá um link.
+- **With link**. Selecione esta opção para adicionar um link à seção.
+    - **Link text action**. Indica o texto do link.
+    - **Select type URL**:
+        - **URL**. Selecione esta opção para preencher manualmente o seguinte campo **de URL** .
+        - **Preconfigured**. Selecione esta opção para selecionar um dos URLs preconfigurados no campo URL.
 
-<figure><img src="../.gitbook/assets/section_URL.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/section_URL.png" width="563" alt=""><figcaption></figcaption></figure>
 
-{% hint style="warning" %}
-**¿Por qué no veo la sección que acabo de configurar en la previsualización?**
+{% hint style="warning" %} **Por que não vejo a seção que acabei de configurar na pré-visualização?**
 
-Hasta que una sección no contenga al menos un módulo esa sección no se verá en la previsualización de la página modular que estás creando o editando.
+Até que uma seção contenha pelo menos um módulo, essa seção não estará visível na pré-visualização da página modular que você está criando ou editando.
 
-Así es justamente cómo se comporta una página modular para el usuario de la app. Si una sección tiene módulos pero ninguno le aplica a ese usuario entonces esa sección no aparecerá, aunque tenga módulos dentro y contenga título de sección, descripción y/o enlace.
-{% endhint %}
+É exatamente esse o comportamento de uma página modular para os usuários do app. Se uma seção tiver módulos, mas nenhum se aplicar a esse usuário, então essa seção não será exibida, mesmo que tenha módulos dentro e contenha um título de seção, descrição e/ou link. {% endhint %}
 
-## Cómo añadir un módulo
+## Como adicionar um módulo
 
-Los módulos van siempre dentro de una sección y por tanto, antes de añadir un módulo, tienes que [crear al menos una sección](contenido.md#como-crear-una-seccion). Si lo que necesitas es incluir un módulo en el **Header**, esa sección ya está creada por defecto siempre.
+Os módulos sempre estarão dentro de uma seção e, portanto,, antes de adicionar um módulo, você deve [criar pelo menos uma seção](contenido.md#como-crear-una-seccion). Se o que você precisa é incluir um módulo no **Header**, essa seção é sempre criada por padrão.
 
-Haz clic en **+Add module** dentro de la sección en la que quieras incluir un módulo.
+Clique em **+Add module** na seção onde deseja incluir um módulo.
 
-* **Select module**. Selecciona el módulo que vas a añadir.
-* **Module Id**. El sistema te ofrece, en función del módulo que has seleccionado, un ID para identificar de manera unívoca el módulo que estás añadiendo. Puedes cambiar el ID del módulo siempre y cuando uses uno nombre que no esté en uso.
+- **Select module**. Selecione o módulo que vai ser adicionado.
+- **Module ID**. O sistema oferece, dependendo do módulo selecionado, um ID para identificar exclusivamente o módulo que você está adicionando. Você pode alterar o ID do módulo, desde que use um nome que ainda não esteja em uso.
 
 <figure><img src="../.gitbook/assets/New_Module.png" alt=""><figcaption></figcaption></figure>
 
-Consulta el Catálogo de módulos disponibles desde el propio CMS. Desde la pantalla principal haz clic en **Module catalog**.&#x20;
+Consulte o Catálogo de módulos disponíveis no próprio CMS. Na tela principal, clique em **Module catalog**.
 
-¿Necesitas más información sobre cómo consultar el **Catálogo de módulos**? 👇🏼
+Você precisa de mais informações sobre como consultar o **Catálogo de Módulos**? 👇🏼
 
-{% content-ref url="../catalogo-de-modulos-disponibles.md" %}
-[catalogo-de-modulos-disponibles.md](../catalogo-de-modulos-disponibles.md)
-{% endcontent-ref %}
+{% content-ref url="../catalogo-de-modulos-disponibles.md" %} [catalogo-de-modulos-disponibles.md](../catalogo-de-modulos-disponibles.md) {% endcontent-ref %}
 
-### Estructura de edición de un módulo
+### Estrutura de edição de um módulo
 
-En función del módulo que añadas se muestran los campos que permiten configuración adicional en el CMS. Para ayudarte, esos campos están divididos en pestañas según su tipología:&#x20;
+Dependendo do módulo adicionado, serão exibidos os campos que permitem configurações adicionais no CMS. Para ajudar, esses campos estão divididos em abas de acordo com sua tipologia:
 
 #### Content
 
-En esta pestaña están disponibles todos los campos relacionados con el contenido del módulo.
+Todos os campos relacionados ao conteúdo do módulo estão disponíveis nesta aba.
 
-{% hint style="info" %}
-Recuerda que estos campos varían por cada tipo de módulo que añades. Algunos módulos permiten mayor configurabilidad que otros 😉.
-{% endhint %}
+{% hint style="info" %} Lembre-se de que esses campos variam para cada tipo de módulo adicionado. Alguns módulos permitem maior configurabilidade do que outros 😉. {% endhint %}
 
-Si el módulo que incluyes dispone de un CMS específico entonces tendrás un enlace directo para acceder a la edición del elemento.
+Se o módulo que você incluir tiver um CMS específico, você obterá um link direto para acessar a edição do elemento.
 
 <figure><img src="../.gitbook/assets/CMSpropio.png" alt=""><figcaption></figcaption></figure>
 
-Si realizar cambios sobre el módulo es necesario que refresques el elemento para que la previsualización sea más fiel. Haz clic en <img src="../.gitbook/assets/image (4).png" alt="" data-size="line">para realizar ese refresco de información.
+Se você fizer alterações no módulo, será necessário atualizar o elemento para que a pré-visualização fique mais fiel. Clique em <img src="../.gitbook/assets/image%20(4).png" data-size="line" alt=""> para realizar esta atualização de informações.
 
-{% hint style="warning" %}
-🚨 En esta guía de uso no se detalla cada campo que puede editarse en un módulo dado que depende del contenido añadido.
-{% endhint %}
+{% hint style="warning" %} 🚨 Este guia do usuário não detalha cada campo que pode ser editado em um determinado módulo, pois isto depende do conteúdo adicionado. {% endhint %}
 
 #### Audience
 
-Desde esta pestaña configura, si lo necesitas, las audiencias que deben ver el módulo que estás creando.
+Nesta aba configure, se necessário, os públicos que deverão ver o módulo que você está criando.
 
-Puedes usar el compositor de audiencias para definir las condiciones que debe cumplir el usuario para ser candidato a ver el módulo.
+Você pode usar o compositor de público para definir as condições que o usuário deve atender para ser elegível para visualizar o módulo.
 
 <figure><img src="../.gitbook/assets/Audience.png" alt=""><figcaption></figcaption></figure>
 
-Haz clic en **+Add condition** para añadir una condición nueva.&#x20;
+Clique em **+Add condition** para adicionar uma nova condição.
 
-* Selecciona **Is** en el desplegable para indicar que sí cumpla la audiencia
-* Selecciona **Is Not** para indicar que no cumpla la audiencia.
-* En el desplegable **Audience** selecciona la audiencia que corresponda.
+- Selecione **Is** no menu suspenso para indicar que cumpra com o público.
+- Selecione **Is Not** para indicar que não cumpra com o público.
+- No menu suspenso **Audiencia**, selecione o público apropriado.
 
-{% hint style="success" %}
-Si no seleccionas **ninguna audiencia** entonces das por hecho que el módulo será visible para **todos los usuarios**.
-{% endhint %}
+{% hint style="success" %} Se você não selecionar **nenhum público**, entende-se que o módulo estará visível para **todos os usuários**. {% endhint %}
 
 #### Tracking
 
-En esta pestaña puedes configurar los campos de tracking que necesites. Actualmente, muchos de  los campos se trackean de manera automática pero estos son los campos que puedes añadir:
+Nesta aba, você pode configurar os campos de tracking necessários. Atualmente, muitos dos campos são rastreados automaticamente, mas estes são os campos que você pode adicionar:
 
-* **module\_id (optional)**. Campo de texto abierto relacionado con el ID del módulo y que atiende al tracking de Universal Analytics\*
-* module\_name (optional). Campo de texto abierto relacionado con el nombre del módulo y que atiende al tracking de Universal Analytics\*
+- **module_id (opcional)**. Campo de texto aberto relacionado ao ID do módulo e que atende ao tracking do Universal Analytics*.
+- <strong>module_name (opcional)</strong>. Campo de texto aberto relacionado ao nome do módulo e que atende ao tracking do Universal Analytics*.
 
-_\*Campo que quedaránobsoletos cuando desaparezca Universal Analytics._
+**Campo que se tornará obsoleto quando o Universal Analytics desaparecer.*
 
-* **Content group (optional)**. Selecciona uno de los disponibles en el desplegable.
-* **Content\_category (optional)**. En función del valor que hayas seleccionado en el desplegable **Content\_group** se acotan los valores que puedes seleccionar para el **Content\_category**.
+- **Content group (opcional)**. Selecione um dos disponíveis no menu suspenso.
+- **Content_category (opcional)**. Dependendo do valor que você selecionou no menu suspenso **Content_group**, os valores que você pode selecionar para **Content_category** são limitados.
 
-**Analytics tracking preview**. Usa esta opción para conocer el tracking de los elementos y los valores que tienen por defecto. Haz clic en la previsualización del módulo sobre los elementos que cuyo tracking quieras conocer.
+**Analytics tracking preview**. Utilize esta opção para conhecer o tracking dos elementos e seus valores padrão. Clique na pré-visualização do módulo sobre os elementos cujo tracking você deseja conhecer.
 
 <figure><img src="../.gitbook/assets/PreviewTracking.gif" alt=""><figcaption></figcaption></figure>
 
-Haz clic en **x Closing preview** para dejar de ver esta información y poder navegar por otras pestañas de la modal de edición.
+Clique em **x Closing preview** para deixar de ver essas informações e poder navegar para outras abas no modo de edição.
 
 #### QA
 
-Pestaña dedicada a poder indicar un ID concreto la módulo para ser usado en los test automáticos o manuales del equipo de QA.
+Aba dedicada a poder indicar um ID específico do módulo a ser utilizado nos testes automáticos ou manuais da equipe de QA.
 
-**Testing ID (optional)**. Desde el equipo de pruebas usan este campo para comprobar la información mostrada en pantalla.
+**Testing ID (opcional)**. A equipe de teste utiliza este campo para verificar as informações exibidas na tela.
 
-Por lo general este campo no tienes que rellenarlo 🤓.
+Geralmente, você não precisa preencher este campo 🤓.
 
+Clique em **OK** no modo de criação/edição do módulo quando tiver preenchido todos os campos necessários.
 
+{% hint style="danger" %} **IMPORTANTE**: lembre-se de que as alterações não são salvas até chegar à última etapa, onde você pode publicar as alterações ou salvá-las.
 
-Haz clic en **OK** en la modal de creación/edición del módulo cuando hayas rellenado todos los campos necesarios.
+Se você fechar a tela nesse momento, perderá todas as configurações feitas. {% endhint %}
 
-{% hint style="danger" %}
-**IMPORTANTE**: recuerda que los cambios no se salvan hasta llegar al último paso, en donde podrás publicar los cambios o guardarlos.
+---
 
-Si cierras la pantalla en este momento perderás toda la configuración que hayas realizado.
-{% endhint %}
+## Ações comuns ao criar/editar uma página
 
+Antes de detalhar quais ações comuns você pode realizar dentro de uma página modular, lembre-se de que você sempre tem ações secundárias, tanto na seção quanto no módulo.
 
+Clique em <img src="../.gitbook/assets/image%20(3).png" data-size="line" alt=""> para abrir o menu secundário.
 
-***
+<figure><img src="../.gitbook/assets/menu_secundario%20(1).png" alt=""><figcaption></figcaption></figure>
 
-## Acciones comunes en la creación/edición de una página
+### Mover um módulo dentro de uma seção
 
-Antes de detallar qué acciones comunes puedes llevar a cabo dentro de una página modular, recuerda que dispones siempre de acciones secundarias, tanto en la sección como en el módulo.
-
-Haz clic en <img src="../.gitbook/assets/image (3).png" alt="" data-size="line"> para abrir el menú secundario.
-
-<figure><img src="../.gitbook/assets/menu_secundario (1).png" alt=""><figcaption></figcaption></figure>
-
-### Mover un módulo dentro de una sección
-
-Usa la opción _Drag\&Drop_ para mover el módulo a la posición deseada.&#x20;
+Use a opção *Drag&amp;Drop* para mover o módulo para a posição desejada.
 
 <figure><img src="../.gitbook/assets/move_module_in_the_same_section.gif" alt=""><figcaption></figcaption></figure>
 
-### Mover un módulo a otra sección
+### Mover um módulo para outra seção
 
-Usa la opción _Drag\&Drop_ para mover el módulo a la posición deseada. También dispones del menú secundario **Move to another section**. Se abre una modal para que indiques a qué sección lo quieres mover. Haz clic en **Move module** para confirmar el movimiento a la sección que has indicado. El módulo se sitúa en último lugar de esa sección.
+Use a opção *Drag&amp;Drop* para mover o módulo para a posição desejada. Você também tem o menu secundário **Move to another section**. Um modo é aberto para indicar a qual seção deseja movê-lo. Clique em **Move module** para confirmar a mudança para a seção que você indicou. O módulo é colocado em último lugar nessa seção.
 
 <figure><img src="../.gitbook/assets/move_to_another_section.png" alt=""><figcaption></figcaption></figure>
 
+### Desativar/Ativar um módulo
 
+A desativação de um módulo permite que você não o torne visível para os usuários do app, enquanto esse módulo estiver desativado. Da mesma forma, ativá-lo o tornará visível novamente.
 
-### Desactivar/Activar un módulo
+😉 Lembre-se de que quando você desativa um módulo ele não é visto na preview do lado direito.
 
-Desactivar un módulo te permite que no sea visible para los usuarios de la app mientras ese módulo está desactivado. Del mismo modo, activarlo hará que sea visible de nuevo.
+Desativar um módulo é uma ação menos destrutiva do que excluí-lo, pois nesse caso, para recuperá-lo, seria necessário adicioná-lo novamente e configurá-lo do zero.
 
-😉 Ten en cuenta que cuando desactivas un módulo entonces no se ve en la preview de la parte derecha.
-
-Desactivar un módulo es una acción menos destructiva que eliminarlo dado que en ese caso, para recuperarlo, tendrías que añadirlo de nuevo y configurarlo de cero.
-
-Usa el interruptor que hay junto al módulo para activarlo/desactivarlo:
+Use a chave ao lado do módulo para ativar/desativar:
 
 <figure><img src="../.gitbook/assets/activardesactivar.png" alt=""><figcaption></figcaption></figure>
 
-### Crear un grupo de módulos alternativos
+### Criar um grupo de módulos alternativos
 
-Existen casos en lo que en función de la audiencia de los usuarios necesites que en un determinado punto de la app se muestre un módulo para unos usuarios u otro módulo diferente para los otros. La manera de hacer esto es mediante los módulos alternativos. Esos módulos funcionan como uno solo, es decir, se configuran varios pero en la app solo se muestra uno, el que le aplique al usuario.
+Há casos em que, dependendo do público dos usuários, é necessário que um módulo seja exibido em determinado ponto do app para alguns usuários ou um módulo diferente para os demais. A maneira de fazer isso é através de módulos alternativos. Esses módulos funcionam como um só, isto é, vários são configurados mas apenas um é exibido no app, aquele que se aplica ao usuário.
 
-Ten en cuenta que el orden en el que estén los módulos alternativos es importante dado que el sistema evalúa, de arriba abajo el primer módulo que le aplique al usuario. Ese será el módulo que se mostrará.
+Tenha em mente que a ordem em que os módulos alternativos são listados é importante, pois o sistema avalia, de cima para baixo, o primeiro módulo que corresponde ao usuário. Esse será o módulo que será exibido.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Ejemplo de módulos alternativos</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image%20(7).png" alt=""><figcaption><p>Exemplo de módulos alternativos</p></figcaption></figure>
 
-#### Cómo crear un grupo de módulos alternativos
+#### Como criar um grupo de módulos alternativos
 
-Lo primero es tener ya uno de los módulos metidos en una sección. A continuación, haz clic en el menú secundario de ese módulo y selecciona **+Add alternative**.
+A primeira coisa é já ter um dos módulos colocado em uma seção. Em seguida, clique no menu secundário desse módulo e selecione **+Add alternative** .
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image%20(8).png" alt=""><figcaption></figcaption></figure>
 
-Configura el nuevo módulo alternativo que quieras. Puedes repetir la operación tantas veces como módulos alternativos necesites.&#x20;
+Configure o novo módulo alternativo desejado. Você pode repetir a operação quantas vezes quanto módulos alternativos forem necessários.
 
-{% hint style="warning" %}
-Ten en cuenta que solo un módulo puede no contener audiencia y ese módulo debes colocarlo en última posición dado que si no nunca se evaluaría la condición del resto de módulos.
-{% endhint %}
+{% hint style="warning" %} Tenha em mente que apenas um módulo não pode conter público e você deve colocar esse módulo na última posição, caso contrário, a condição do restante dos módulos nunca seria avaliada. {% endhint %}
 
-### Crear un test A/B
+### Criar um teste A/B
 
-Desde modular pages es posible realizar un test A/B para poder testar cómo funciona un cambio en un módulo.
+A partir de páginas modulares, é possível realizar um teste A/B para testar como funciona uma mudança em um módulo.
 
-Aquí tienes toda la información necesaria 👇🏼
+Aqui você tem todas as informações necessárias 👇🏼
 
-{% content-ref url="../como-hacer-un-test-a-b.md" %}
-[como-hacer-un-test-a-b.md](../como-hacer-un-test-a-b.md)
-{% endcontent-ref %}
+{% content-ref url="../como-hacer-un-test-a-b.md" %} [como-hacer-un-test-a-b.md](../como-hacer-un-test-a-b.md) {% endcontent-ref %}
 
-***
+---
 
-Cuando hayas terminado de configurar todo el contenido de la página haz clic en **Continue** para pasar al siguiente paso.
+Ao finalizar a configuração de todo o conteúdo da página, clique em **Continue** para ir para a próxima etapa.
 
-{% hint style="success" %}
-Recuerda que los cambios no se guardan de manera automática y que necesitas llegar al último paso para guardarlos o para publicar los cambios. 🤓
-{% endhint %}
-
-
-
+{% hint style="success" %} Lembre-se de que as alterações não são salvas automaticamente e que você precisa ir para a última etapa para salvar ou publicar as alterações. 🤓 {% endhint %}
