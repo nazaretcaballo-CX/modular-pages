@@ -1,71 +1,67 @@
-# Cómo hacer un Test A/B
+# How to run an A/B Test
 
-### Crear un test A/B
+### Create an A/B test
 
-Desde Modular pages es posible realizar un test A/B para poder testar cómo funciona un cambio en un módulo.
+You can run an A/B test to see how a modular change will work from Modular Pages.
 
-### Antes de empezar...
+### Before you start...
 
-Es importante que tengas en cuenta que no es posible crear un test A/B sin coordinarlo con el equipo de Digital Analytics dado que la base de un test A/B es poder medir los resultados. Para poder medir esos resultados es necesario el uso de Firebase.
+Keep in mind that it isn't possible to create an A/B test without coordinating with the Digital Analytics team, since the purpose of an A/B test is to be able to measure the results. Firebase must be used to measure these results.
 
-### Pasos a seguir para crear un Test A/B en Modular pages
+### Steps to follow to create an A/B Test in Modular Pages
 
-**Paso 1**. Para empezar es necesario tener permisos de creación de Test A/B en el CMS. Si no lo tienes, contacta con el NOC para que te los dé ![(guiño)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/wink.svg). También puedes pedir ayuda a tu OBPM o persona de referencia que tengas en Novum para que te ayude.
+**Step 1**. First, you'll need to have A/B Test creation permission in the CMS. If you don't, ask the NOC for it ![(wink)](https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/wink.svg). You can also ask your OBPM or reference contact at Novum for assistance.
 
-{% hint style="info" %}
-No es un permiso que tengas activado por defecto así que si no lo has solicitado nunca lo normal es que NO lo tengas. 🙋🏾
-{% endhint %}
+{% hint style="info" %} This permission is not activated by default, so don't worry if you DON'T have the permission if you've never requested it 🙋🏾 {% endhint %}
 
-**Paso 2**. Accede a Modular pages y edita la página en la que quieras meter ese Test.
+**Step 2**. Access Modular Pages and edit the page where you want to include the test.
 
-**Paso 3**. En el paso **Content**, busca el módulo que quieres testar. Haz clic en el submenú del módulo y selecciona la opción **A/B Test**
+**Step 3**. In the **Content** step, search for the module you want to test. Click on the module sub-menu and select the **A/B Test** option
 
 <figure><img src=".gitbook/assets/iniciarABTest.png" alt=""><figcaption></figcaption></figure>
 
-**Paso 4**. Añade el nombre del test. El **Key name** es el nombre que se usará en Firebase para identificar el test. Haz clic en **Continue**.
+**Step 4**. Add the name of the test. The **Key name** is the name that will be used in Firebase to identify the test. Then, click **Continue**.
 
 <figure><img src=".gitbook/assets/FirebaseKey.png" alt=""><figcaption></figcaption></figure>
 
-**Paso 5.** Al añadir el Key name se abre la modal de edición del módulo, exactamente una réplica del módulo sobre el que estás haciendo el test A/B. Haz los cambios relacionados con el test y haz clic en **OK**.
+**Step 5.** A module editing window will open up when you enter the Key name. This is a replica of the module for which you are running the A/B test. Make changes pertaining to the test and click **OK**.
 
 <figure><img src=".gitbook/assets/A_BTestCreado.png" alt=""><figcaption></figcaption></figure>
 
-Como ves, se ha creado otro módulo y ahora cada uno está identificado con A y B, siendo A el módulo de referencia (el módulo origen, el que ya está en Producción) y siendo B el módulo a testar, también llamado Variant A en la herramienta de Firebase.
+As you can see, another module has now been created. The two modules are identified as A and B, with A being the reference module (the source module, which is already in production) and B being the module to be tested (also called Variant A in the Firebase tool).
 
-**Paso 6.** **IMPORTANTE**. Aún no se han llevado los cambios a PROD porque para ello tienes que hacer clic en **Continue**, en el paso **2 Content** en el que estás. Y terminar de publicar, en el paso 3, toda la página modular.\
+**Step 6.** **IMPORTANT**. The changes will be brought to PROD once you click on **Continue** in step **2 Content**. You can then finish publishing the entire Modular Page in step 3.
 
+![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/star_red.svg) **IMPORTANT** ![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/star_red.svg)
 
-![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg) **IMPORTANTE** ![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg)
+Until the test is launched in Firebase, the app user will continue to see what is in production, i.e. the reference module, regardless of whether the test has already been configured in Modular Pages. It is therefore vitally important to coordinate with the Digital Analytics team so that you know when the test will first appear. The good news is that you can leave this ready in the Modular Pages CMS for when Digital Analytics can activate it in Firebase.
 
-Hasta que el test no se lance en Firebase el usuario de la app seguirá viendo lo que hay en producción, es decir, el módulo de referencia, con independencia de que ya se haya configurado el test en Modular pages. Por eso es de vital importancia que te coordines con el equipo de Digital Analytics para que sepas cuándo empezará a verse el test. La parte buena es que puedes dejarlo preparado en el CMS de Modular pages para cuando DA pueda activarlo en Firebase.
+### Steps to mark the winning option in Modular Pages
 
-### Pasos para marcar opción ganadora en Modular pages
+The A/B test has finished the results are available in Firebase. Now what?
 
-El test A/B ha finalizado y ya tienes los resultados en Firebase. Y ahora, ¿qué?
+**Step 1**. Once the data has been analysed and you have made a decision on the winning module, access the Modular Pages CMS where the A/B test is running and edit the page containing the test.
 
-**Paso 1**. Con los datos analizados y la decisión tomada sobre qué módulo es el ganador, accede al CMS de Modular pages dónde está corriendo el test A/B y edita la página que contiene el test.
+<figure><img src=".gitbook/assets/image%20(9).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+**Step 2**. Click on the winning module's sub-menu and select **Set as winner**.
 
-**Paso 2**. Haz clic en el submenú del módulo ganador y selecciona **Set as winner**.
-
-<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image%20(10).png" alt=""><figcaption></figcaption></figure>
 
 \
 
+**Step 3.** A summary window will appear showing the winning module and a preview. Confirm the change by clicking **Set as Winner**. Once you do this, the discarded module will be removed.
 
-**Paso 3.** Aparece una ventana de resumen mostrando el módulo ganador y una preview. Confirma el cambio haciendo clic en **Set as Winner**. En ese momento se elimina el módulo descartado.
+<figure><img src=".gitbook/assets/image%20(11).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+**Step 4**. **IMPORTANT**. The changes will be brought to PROD once you click on **Continue** in step **2 Content**.
 
-**Paso 4**. **IMPORTANTE**. Aún no se han llevado los cambios a PROD porque para ello tienes que hacer clic en **Continue**, en el paso **2 Content** en el que estás.&#x20;
+In step **3 Overview**, you need to click **Save and publish**.
 
-Ya en el paso **3 Overview** haz clic en **Save and publish**.&#x20;
+A window will open up in which you can indicate a description for the change you are going to make. Click **Confirm** to finish the setup.
 
-Se abre una modal para que indiques una descripción para el cambio que vas a llevar a cabo. Haz clic en **Confirm** para terminar la configuración.
+### Good practices
 
-### Buenas prácticas
+You must create a ticket describing the test for the Digital Analytics team. You must also coordinate with the team, as there is no point in having an A/B test configured in Modular Pages if that test does not start from Firebase.
 
-Es importante que crees un ticket al equipo de Digital Analytics describiendo el test. También es importante que os coordinéis porque no sirve de nada que tengas configurado un test A/B en Modular Pages si desde Firebase ese test no se inicia.
-
-[Template Test A/B: \[OB\] Test A/B name](https://confluence.tid.es/pages/viewpage.action?pageId=141016807)\
+[Template Test A/B: [OB] Test A/B name](https://confluence.tid.es/pages/viewpage.action?pageId=141016807)\
