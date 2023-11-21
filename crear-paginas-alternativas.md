@@ -1,47 +1,43 @@
-# Crear páginas alternativas
+# Create alternative pages
 
-Del mismo modo que es posible configurar [módulos alternativos](como-crear-una-pagina-modular/contenido.md#crear-un-grupo-de-modulos-alternativos), sucede parecido con las páginas.&#x20;
+Just as you can configure [alternative modules](como-crear-una-pagina-modular/contenido.md#crear-un-grupo-de-modulos-alternativos), you can also create alternative pages.
 
-Puede ser que necesites crear la misma página pero con apariencia significativamente diferente para un grupo de usuarios.
+In some circumstances, you may need to create the same page multiple times so that it appears differently for certain groups of users.
 
-En ese caso, sobre la página que necesites, desde la pantalla principal de páginas, haz clic en **+Add new page**.
+If this is the case, click **+Add new page** on the corresponding page on the main pages screen.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-La condición necesaria es que añadas una audiencia para esta nueva página para que tenga sentido que tengas esa nueva "versión" de la página para una audiencia determinada.
+Since you need to add an audience for this new page, it makes sense for you to have a new "version" of said page for a given audience.
 
-Ejemplo:
+Here is one such example:
 
-_Alice está creando una página de inicio de la app con varios módulos. Pero sabe que para un determinado grupo de usuarios, aquellos que aún no disponen de su usuario porque acaban de darse de alta con la app, esa página de inicio es totalmente distinta._
+*Alice is creating an app home page with several modules. She knows that, for a certain group of users who have just registered with the app and as such do not have a username yet, that home page will appear different.*
 
-_¿Cómo lo hace Alice?_
+*What does Alice do?*
 
-_Una vez creada la página de inicio con los módulos crea una página alternativa en la que indica que esa página es para los usuarios con la audiencia `new-user`. En esa página incluye un único módulo, que lleva solo el módulo de acceso a preguntas frecuentes._
+*Once the home page has been created with the modules, she creates an alternative page indicating that said page is intended for users with the `new-user` audience. She includes a single module on that page which only contains the frequently asked questions (FAQs) access module.*
 
-_De esa manera Alice puede gestionar mucho mejor el contenido que ven unos y otros usuarios._
+*This allows Alice to better manage the content that is shown to different users.*
 
-Otro ejemplo de uso muy frecuente es cuando las páginas están relacionadas con productos en cuyo caso puede ser muy útil, e incluso necesario, crear páginas alternativas.
+Another example of very frequent use is when the pages are related to products. In this case, it can be very useful, and even necessary, to create alternative pages.
 
-_Ejemplo_
+*Here is one such example:*
 
-_Alice necesita crear la página de principal de línea móvil pero esas páginas están relacionadas con el producto móvil y son diferentes si el usuario es prepago, si el usuario es postpago y además tiene un plan contratado o si el usuario tiene una línea postpago suelta._
+*Alice needs to create the mobile line home page for the app. However, these pages are related to the mobile product and vary depending on whether the user is pre-paid, post-paid with a contracted plan or if they have a non-contracted post-paid line.*
 
-_Para ello Alice crea tres páginas alternativas, una para cada situación, a las que indica las audiencias correspondientes y sobre las que añadirá los módulos que considere._
+*To do this, Alice creates three alternative pages, one for each situation. She indicates the corresponding audiences and the modules to be added for each page.*
 
-### Cómo ordenar las páginas alternativas
+### How to sort alternative pages
 
-Para que el sistema evalúe qué página muestra al usuario de la app, necesita ordenar esas páginas.&#x20;
+You must sort pages so that the system can decide which one to show to the app user.
 
-{% hint style="info" %}
-Recuerda que **el sistema evalúa de arriba abajo**, es decir, la primera que coincida con el usuario, empezando por arriba, será la que muestre en la app, sin evaluar las siguientes.
+{% hint style="info" %} Remember that **the system evaluates from top to bottom**.  In other words, the first page that matches the user, when starting from the top, will be the one shown in the app, and subsequent ones will not be considered.
 
-Ten muy en cuenta esto de cara a decidir el orden en que colocas estas páginas.
-{% endhint %}
+Keep this in mind when deciding the order in which you place these pages. {% endhint %}
 
-Mueve las páginas con _Drag\&Drop_ y cuando las tengas colocadas como consideras haz clic en **Save order.**
+Move the pages with *Drag&amp;Drop*. Once they're in the desired order, click  **Save order.**
 
-{% hint style="warning" %}
-Solo puedes tener una página que **no contenga audiencias** y esa página tiene que estar siempre en **último lugar**. El sistema te avisa si esto no se cumple e intentas guardar un orden incorrecto.
-{% endhint %}
+{% hint style="warning" %} You can only have one page that **does not contain audiences** and that page must always be in **last** place. If this condition is not met and you try to save an incorrect order, you will be duly warned by the system. {% endhint %}
 
 <figure><img src=".gitbook/assets/MovePages.gif" alt=""><figcaption></figcaption></figure>
