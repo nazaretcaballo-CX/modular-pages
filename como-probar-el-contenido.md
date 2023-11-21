@@ -1,55 +1,51 @@
-# Cómo probar el contenido
+# How to test content
 
-Aunque en el apartado [Vista previa](como-crear-una-pagina-modular/vista-previa.md) has podido comprobar cómo se inicia un test, a continuación puedes saber más sobre este proceso de pruebas de contenido:
+Even though you've already seen how a test is launched in the [Preview](como-crear-una-pagina-modular/vista-previa.md) section, you can learn more about the content testing process below:
 
-### Cómo publicar el contenido de un test
+### How to publish the content of a test
 
-Para empezar, sabrás que una página tiene un test en marcha gracias a la etiqueta de estado **TEST**:
+First, you'll know that a test is running on a page thanks to the **TEST** status tag:
 
 <figure><img src=".gitbook/assets/test_modular_page_tag.png" alt=""><figcaption></figcaption></figure>
 
-Para publicar el contenido de un test accede a la página sobre la que está en marcha ese test.
+To publish the content of a test, access the page on which that test is running.
 
-Al abrir la página modular, el contenido aparece dividido en dos pestañas para que puedas ver, en todo momento, el contenido previo al test y el propio contenido del test.
+When you open the modular page, the content will be split into two different tabs. This will allow you to see the pre-test content and the test content itself at all times.
 
-👋🏽 El nombre de la otra pestaña se refiere al estado en el que está el contenido que NO es no está bajo el test.
+👋🏽 The name of the other tab refers to the status of the content that is NOT being tested.
 
 <figure><img src=".gitbook/assets/tabTestModularPages.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="warning" %}
-Solo puedes hacer cambios en el contenido si estás en la pestaña **Test**. Usa la otra pestaña para ver el contenido previo a los cambios que has hecho para el test.&#x20;
-{% endhint %}
+{% hint style="warning" %} You can only make changes to the content from the **Test** tab. Use the other tab to view the content prior to the changes you made for the test. {% endhint %}
 
-Para **guardar los cambios** hechos sobre un test **pero no publicarlos** entonces haz clic en **Save test**:
+To **save the changes** made to a test **without publishing them**, click **Save test**:
 
 <figure><img src=".gitbook/assets/saveTestButtom.png" alt=""><figcaption></figcaption></figure>
 
-Cuando te hayas asegurado de que el contenido que tienes en la pestaña **Test**, en todos los pasos, es el contenido que quieres aplicar entonces haz clic en **Save and Publish**. Indica una descripción de esos cambios y haz clic en **Confirm** para validar los cambios y publicar.
+When you're sure that you want to apply the content shown in all steps of the **Test** tab, click **Save and Publish**. Provide a description of those changes and click **Confirm** to validate and publish the changes.
 
-Haz clic en **Close** para volver a la pantalla principal de páginas modulares.
+Click **Close** to return to the main Modular Pages screen.
 
-{% hint style="success" %}
-:thumbsup:En la pantalla principal puedes comprobar que en el estado de la página modular ha desaparecido la etiqueta **TEST**.
-{% endhint %}
+{% hint style="success" %} :thumbsup: On the main screen, you will see that the **TEST** tag has disappeared from the status of the modular page. {% endhint %}
 
-### Cómo descartar un test
+### How to discard a test
 
-Si tras probar el contenido de una página modular, con un Test en curso, decides descartar los cambios entonces accede a la página sobre la que está en marcha ese test.
+If, with a test still in progress, you decide to discard changes after you have tested the content of a modular page, you'll need to access the page on which said test is in progress.
 
-Haz clic en **Continue** hasta llegar al último paso **Preview** y haz clic en **Discard test**.
+Click **Continue** until you reach the last **Preview** step and then click **Discard test**.
 
 <figure><img src=".gitbook/assets/DiscardTest.png" alt=""><figcaption></figcaption></figure>
 
-Cuando descartas un test implica eliminar los cambios que habías hecho sobre la página modular. Tanto el contenido como el estado de esa página se queda como estaba previamente, antes del test.&#x20;
+When you discard a test, you discard the changes you had made on the modular page. Both the content and the status of that page will return to how they were before the test.
 
-### Como añadir, quitar o modificar los Novum user IDs de un test
+### How to add, remove or modify Novum user IDs from a test
 
-Si necesitas editar el test para poder añadir, quitar o modificar los usuarios que pueden ver un determinado test entonces accede a la página modular que tiene el test.
+If you need to edit the test in order to add, remove or modify the users who can view a certain test, access the modular page where the test is located.
 
-Desde la pantalla principal en la que están listadas todas las páginas modulares, accede al menú secundario de la página cuyos IDs quieres editar y haz clic en **Edit test information**.
+From the main screen where all the modular pages are listed, access the sub-menu of the page whose IDs you wish to edit and then click **Edit test information**.
 
 <figure><img src=".gitbook/assets/EditTestInformation.png" alt=""><figcaption></figcaption></figure>
 
-También puedes acceder a la página y desde el último paso **Preview** haz clic en **Edit test information**.&#x20;
+You can also access the page and click **Edit test information** from the last **Preview** step.
 
-En ambos casos puedes añadir user ID nuevos o eliminar lo que ya hay. Simplemente edita los valores del campo **User ID (optional)** y haz clic en el botón **Edit test information.**&#x20;
+In both cases, you can add new user IDs or delete those that already exist. Simply edit the values ​​in the **User ID field (optional)** and click the **Edit test information button.**
