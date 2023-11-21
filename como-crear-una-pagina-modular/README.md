@@ -1,31 +1,25 @@
-# Cómo crear una página modular
+# How to create a modular page
 
-Haz clic en **Create page** para crear una página nueva.
+Click **Create page** to create a new page.
 
 ![](../.gitbook/assets/CrearPaginaBoton.png)
 
-EL proceso de creación de una página modular está dividido en varios pasos:
+The process of creating a modular page is split into several steps:
 
 ![](../.gitbook/assets/steps.png)
 
-**Paso 1. Overview**. En este paso se configura la información general de la página (Nombre interno, ID, tipo de página...)
+**Step 1. Overview**. The general page information (internal name, ID, page type, etc.) is configured in this step.
 
-{% content-ref url="overview.md" %}
-[overview.md](overview.md)
-{% endcontent-ref %}
+{% content-ref url="overview.md" %} [overview.md](overview.md) {% endcontent-ref %}
 
-**Paso 2. Content**. Aquí se configura el aspecto de la página. Es el lugar en el que se añaden los módulos y se decide, entre otras cosas, el orden que tienen dentro de la página.
+**Step 2. Content**. You can configure the appearance of the page in this step. This is where modules are added and the order in which they appear on the page, among other things, is decided.
 
-{% content-ref url="contenido.md" %}
-[contenido.md](contenido.md)
-{% endcontent-ref %}
+{% content-ref url="content.md" %} [content.md](contenido.md) {% endcontent-ref %}
 
-**Paso 3. Preview**. El último paso, a modo de resumen, y desde el que además puedes [crear un test](../como-probar-el-contenido.md) para validar la configuración de la página antes de impactar a una amplia masa de clientes.
+**Step 3. Preview**. The last step provides a summary of the modular page you are about to create. In this step, you can also [create a test](../como-probar-el-contenido.md) to validate the configuration of the page before it impacts a large mass of clients.
 
-{% content-ref url="vista-previa.md" %}
-[vista-previa.md](vista-previa.md)
-{% endcontent-ref %}
+{% content-ref url="vista-previa.md" %} [vista-previa.md](vista-previa.md) {% endcontent-ref %}
 
 ## lkjf-ldkjs-lkfj-klsjf-sjd-flfd
 
-**contenido**
+**content**
