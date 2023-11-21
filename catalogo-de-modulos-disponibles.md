@@ -1,44 +1,37 @@
-# Catálogo de módulos disponibles
+# Catalog of available modules
 
-Desde la página principal de Modular Pages CMS dispones de un acceso directo al catálogo de módulos disponibles.
+The main page of Modular Pages CMS gives you direct access to the catalog of available modules.
 
-Haz clic en **Module Catalog** para acceder al catálogo completo.
+Click **Module Catalog** to access the full catalogue.
 
 <figure><img src=".gitbook/assets/moduleCatalogDetail.png" alt=""><figcaption></figcaption></figure>
 
-Desde el catálogo de módulos tienes acceso a todos los módulos disponibles para crear tus páginas modulares.
+From the module catalog, you can find all the modules available to create your modular pages.
 
-En la parte **izquierda** tienes el **listado de todos los módulos** disponibles y en la parte **derecha** un **previsualización** de ese módulo.&#x20;
+On the **left**-hand side you can see a **list of all the available modules** and on the **right**-hand side you can see a **preview** of that module.
 
-## Información de cada módulo
+## Information about each module
 
 <figure><img src=".gitbook/assets/CatalogModuleOptionsNumbers.png" alt=""><figcaption></figcaption></figure>
 
-1. **Nombre** del módulo
-2. **Visual**: nombre del visual
-3. **Stereotype**: nombre del estereotipo al que pertenece. Esta información es muy útil para los perfiles de desarrollo.
-4. Menú adicional con acceso a:
-   * **See usages**. Haz clic para ver en qué páginas se está usando este módulo
-   * **Filter modules like this**: Muestra los módulos que pese a ser visualmente diferentes usan el mismo estereotipo.
-   * Si el módulo dispone de un editor aparece el nombre de ese editor y te permite acceder directamente. \
-     \
-     👋🏽 Ejemplos de editores: Entry point list, Explore, Alerts, Extras, Start tab header.
-5. **Previsualización del módulo**. Puedes ver una previsualización de cómo será el módulo, para que te hagas una idea y de un vistazo sepas si te resulta útil.
-6. **Light/Dark**. Usa esta opción para cambiar entre modo normal y modo oscuro. Eso te permite previsualizar cómo se ve el módulo cuando el usuario lo visualiza en modo normal o en modo oscuro o modo noche.
-7.  **Background color: Default/ Background color: Brand**. Usa esta opción para ver cómo se ve el módulo en una sección con fondo Default o con fondo de color Brand.\
-    \
-    \
+1. Module **name**
 
+2. **Visual**: name of the visual
+
+3. **Stereotype**: name of the stereotype to which it belongs. This information is very useful for development profiles.
+
+4. Additional menu with access to:
+
+    - **See usages**. Click to see which pages the module is being used on.
+    - **Filter modules like this**: Shows modules that, despite being visually different, use the same stereotype.
+    - If the module has an editor, the name of that editor appears and you will be able to access it directly.<br> <br> 👋🏽 Examples of editors: Entry point list, Explore, Alerts, Extras, Start tab header.
+
+5. **Module preview**. This feature allows you to see what the module will look like, so that you will know at a glance if it will be useful.
+
+6. **Light/Dark**. Use this option to toggle between light mode and dark mode. This allows you to preview what the module will look like when the user views it in light mode or dark mode.
+
+7. **Background color: Default / Background color: Brand**. Use this option to see what the module will look like in a section with a Default background color or a Brand background color.<br><br> \
 
     <figure><img src=".gitbook/assets/background.png" alt=""><figcaption></figcaption></figure>
 
-
-
-8. **Presets**. Esta opción aparece solo si el módulo tiene diferentes tipos de visualizaciones preconfiguradas. Si las tiene, se indica el número de visualizaciones distintas y cuando accedas al detalle de ese módulo, haciendo clic la fila correspondiente, se muestra un desplegable con las diferentes opciones. \
-   \
-   🧐 Observa cómo en función del **Preset** seleccionado cambia la previsualización de la parte derecha.\
-   \
-
-
-
-
+8. **Presets**. This option only appears if the module has different types of preset displays. If it has them, the number of different displays will be indicated. When you access the details of that module, a drop-down menu with the different options will appear when you click on the corresponding row.<br><br> 🧐 Look how the preview on the right-hand side changes depending on the selected **Preset**.<br> \
