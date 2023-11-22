@@ -16,7 +16,9 @@ When you open the modular page, the content will be split into two different tab
 
 <figure><img src=".gitbook/assets/tabTestModularPages.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="warning" %} You can only make changes to the content from the **Test** tab. Use the other tab to view the content prior to the changes you made for the test. {% endhint %}
+{% hint style="warning" %}
+You can only make changes to the content from the **Test** tab. Use the other tab to view the content prior to the changes you made for the test.
+{% endhint %}
 
 To **save the changes** made to a test **without publishing them**, click **Save test**:
 
@@ -26,7 +28,9 @@ When you're sure that you want to apply the content shown in all steps of the **
 
 Click **Close** to return to the main Modular Pages screen.
 
-{% hint style="success" %} :thumbsup: On the main screen, you will see that the **TEST** tag has disappeared from the status of the modular page. {% endhint %}
+{% hint style="success" %}
+:thumbsup: On the main screen, you will see that the **TEST** tag has disappeared from the status of the modular page.
+{% endhint %}
 
 ### How to discard a test
 
@@ -48,4 +52,4 @@ From the main screen where all the modular pages are listed, access the sub-menu
 
 You can also access the page and click **Edit test information** from the last **Preview** step.
 
-In both cases, you can add new user IDs or delete those that already exist. Simply edit the values ​​in the **User ID field (optional)** and click the **Edit test information button.**
+In both cases, you can add new user IDs or delete those that already exist. Simply edit the values ​​in the **User ID field (optional)** and click the **Edit test information** button**.**

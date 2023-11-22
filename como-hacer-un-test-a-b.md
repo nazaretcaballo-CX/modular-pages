@@ -1,4 +1,4 @@
-# How to run an A/B Test
+# How to run an A/B test
 
 ### Create an A/B test
 
@@ -10,9 +10,11 @@ Keep in mind that it isn't possible to create an A/B test without coordinating w
 
 ### Steps to follow to create an A/B Test in Modular Pages
 
-**Step 1**. First, you'll need to have A/B Test creation permission in the CMS. If you don't, ask the NOC for it ![(wink)](https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/wink.svg). You can also ask your OBPM or reference contact at Novum for assistance.
+**Step 1**. First, you'll need to have A/B Test creation permission in the CMS. If you don't, ask the NOC for it ![(wink)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/wink.svg). You can also ask your OBPM or reference contact at Novum for assistance.
 
-{% hint style="info" %} This permission is not activated by default, so don't worry if you DON'T have the permission if you've never requested it 🙋🏾 {% endhint %}
+{% hint style="info" %}
+This permission is not activated by default, so don't worry if you DON'T have the permission if you've never requested it 🙋🏾
+{% endhint %}
 
 **Step 2**. Access Modular Pages and edit the page where you want to include the test.
 
@@ -32,7 +34,7 @@ As you can see, another module has now been created. The two modules are identif
 
 **Step 6.** **IMPORTANT**. The changes will be brought to PROD once you click on **Continue** in step **2 Content**. You can then finish publishing the entire Modular Page in step 3.
 
-![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/star_red.svg) **IMPORTANT** ![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/star_red.svg)
+![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg) **IMPORTANT** ![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg)
 
 Until the test is launched in Firebase, the app user will continue to see what is in production, i.e. the reference module, regardless of whether the test has already been configured in Modular Pages. It is therefore vitally important to coordinate with the Digital Analytics team so that you know when the test will first appear. The good news is that you can leave this ready in the Modular Pages CMS for when Digital Analytics can activate it in Firebase.
 
@@ -42,17 +44,17 @@ The A/B test has finished the results are available in Firebase. Now what?
 
 **Step 1**. Once the data has been analysed and you have made a decision on the winning module, access the Modular Pages CMS where the A/B test is running and edit the page containing the test.
 
-<figure><img src=".gitbook/assets/image%20(9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2**. Click on the winning module's sub-menu and select **Set as winner**.
 
-<figure><img src=".gitbook/assets/image%20(10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-\
+
 
 **Step 3.** A summary window will appear showing the winning module and a preview. Confirm the change by clicking **Set as Winner**. Once you do this, the discarded module will be removed.
 
-<figure><img src=".gitbook/assets/image%20(11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4**. **IMPORTANT**. The changes will be brought to PROD once you click on **Continue** in step **2 Content**.
 
@@ -64,4 +66,4 @@ A window will open up in which you can indicate a description for the change you
 
 You must create a ticket describing the test for the Digital Analytics team. You must also coordinate with the team, as there is no point in having an A/B test configured in Modular Pages if that test does not start from Firebase.
 
-[Template Test A/B: [OB] Test A/B name](https://confluence.tid.es/pages/viewpage.action?pageId=141016807)\
+[Template Test A/B: \[OB\] Test A/B name](https://confluence.tid.es/pages/viewpage.action?pageId=141016807)
