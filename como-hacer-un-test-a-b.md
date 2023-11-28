@@ -32,7 +32,7 @@ Como você pode ver, outro módulo foi criado e agora cada um está identificado
 
 **Passo 6.** **IMPORTANTE**. As alterações ainda não foram trazidas para o PROD, porque para isso é necessário clicar em **Continue**, no passo **2 Content** onde você está. E finalizar a publicação, no passo 3, de toda a página modular.\
 
-![(Estrela Vermelha)](https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/star_red.svg) **IMPORTANTE** ![(Estrela Vermelha)](https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/star_red.svg)
+![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg) **IMPORTANTE** ![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg)
 
 Até que o teste seja lançado no Firebase, o usuário do app continuará vendo o que está em produção, isto é, o módulo de referência, independentemente de o teste já ter sido configurado em Modular pages. Por isso é de vital importância que você se coordene com a equipe de Digital Analytics para saber quando o teste começará a ser exibido. O bom é que você pode deixá-lo pronto no CMS de Modular pages para quando o DA puder ativá-lo no Firebase.
 
