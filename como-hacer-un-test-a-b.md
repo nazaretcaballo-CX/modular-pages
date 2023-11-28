@@ -10,7 +10,7 @@ Keep in mind that it isn't possible to create an A/B test without coordinating w
 
 ### Steps to follow to create an A/B Test in Modular Pages
 
-**Step 1**. First, you'll need to have A/B Test creation permission in the CMS. If you don't, ask the NOC for it ![(wink)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/wink.svg). You can also ask your OBPM or reference contact at Novum for assistance.
+**Step 1**. First, you'll need to have A/B Test creation permission in the CMS. If you don't, ask the NOC for it <img src="https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/wink.svg" alt="(wink)" data-size="original">. You can also ask your OBPM or reference contact at Novum for assistance.
 
 {% hint style="info" %}
 This permission is not activated by default, so don't worry if you DON'T have the permission if you've never requested it 🙋🏾
