@@ -1,6 +1,6 @@
 # Criar páginas alternativas
 
-Da mesma forma que é possível configurar [módulos alternativos](como-criar-uma-pagina-modular/contenido.md#crear-un-grupo-de-modulos-alternativos), o mesmo acontece com as páginas.
+Da mesma forma que é possível configurar [módulos alternativos](broken-reference), o mesmo acontece com as páginas.
 
 Talvez seja necessário criar a mesma página, mas com uma aparência significativamente diferente, para um grupo de usuários.
 

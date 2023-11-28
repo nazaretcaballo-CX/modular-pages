@@ -1,6 +1,6 @@
 # Como testar o conteúdo
 
-Embora na seção [Vista prévia](como-criar-uma-pagina-modular/vista-previa.md) você tenha conseguido ver como um teste começa, abaixo você pode aprender mais sobre esse processo de teste de conteúdo:
+Embora na seção [Vista prévia](broken-reference) você tenha conseguido ver como um teste começa, abaixo você pode aprender mais sobre esse processo de teste de conteúdo:
 
 ### Como publicar o conteúdo de um teste
 
