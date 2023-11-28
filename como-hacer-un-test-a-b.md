@@ -10,7 +10,7 @@ Es importante que tengas en cuenta que no es posible crear un test A/B sin coord
 
 ### Pasos a seguir para crear un Test A/B en Modular pages
 
-**Paso 1**. Para empezar es necesario tener permisos de creación de Test A/B en el CMS. Si no lo tienes, contacta con el NOC para que te los dé ![(guiño)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/wink.svg). También puedes pedir ayuda a tu OBPM o persona de referencia que tengas en Novum para que te ayude.
+**Paso 1**. Para empezar es necesario tener permisos de creación de Test A/B en el CMS. Si no lo tienes, contacta con el NOC para que te los dé <img src="https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/wink.svg" alt="(guiño)" data-size="line">. También puedes pedir ayuda a tu OBPM o persona de referencia que tengas en Novum para que te ayude.
 
 {% hint style="info" %}
 No es un permiso que tengas activado por defecto así que si no lo has solicitado nunca lo normal es que NO lo tengas. 🙋🏾
