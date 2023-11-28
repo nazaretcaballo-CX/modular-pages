@@ -34,7 +34,7 @@ As you can see, another module has now been created. The two modules are identif
 
 **Step 6.** **IMPORTANT**. The changes will be brought to PROD once you click on **Continue** in step **2 Content**. You can then finish publishing the entire Modular Page in step 3.
 
-![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg) **IMPORTANT** ![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg)
+<img src="https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/star_red.svg" alt="(estrella roja)" data-size="original"> **IMPORTANT** <img src="https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/star_red.svg" alt="(estrella roja)" data-size="original">
 
 Until the test is launched in Firebase, the app user will continue to see what is in production, i.e. the reference module, regardless of whether the test has already been configured in Modular Pages. It is therefore vitally important to coordinate with the Digital Analytics team so that you know when the test will first appear. The good news is that you can leave this ready in the Modular Pages CMS for when Digital Analytics can activate it in Firebase.
 
