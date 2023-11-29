@@ -32,9 +32,9 @@ Não é uma permissão que você ativou por padrão, então se você nunca a sol
 
 Como você pode ver, outro módulo foi criado e agora cada um está identificado com A e B, sendo A o módulo de referência (o módulo fonte, aquele que já está em Produção) e B sendo o módulo a ser testado, também chamado Variant A na ferramenta Firebase.
 
-**Passo 6.** **IMPORTANTE**. As alterações ainda não foram trazidas para o PROD, porque para isso é necessário clicar em **Continue**, no passo **2 Content** onde você está. E finalizar a publicação, no passo 3, de toda a página modular.\\
+**Passo 6.** **IMPORTANTE**. As alterações ainda não foram trazidas para o PROD, porque para isso é necessário clicar em **Continue**, no passo **2 Content** onde você está. E finalizar a publicação, no passo 3, de toda a página modular.
 
-![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg) **IMPORTANTE** ![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg)&#x20;
+![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg) **IMPORTANTE** ![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg)
 
 Até que o teste seja lançado no Firebase, o usuário do app continuará vendo o que está em produção, isto é, o módulo de referência, independentemente de o teste já ter sido configurado em Modular pages. Por isso é de vital importância que você se coordene com a equipe de Digital Analytics para saber quando o teste começará a ser exibido. O bom é que você pode deixá-lo pronto no CMS de Modular pages para quando o DA puder ativá-lo no Firebase.
 
@@ -66,4 +66,4 @@ Um modo se abre para você indicar uma descrição da alteração que vai fazer.
 
 É importante que você crie um ticket para a equipe de Digital Analytics descrevendo o teste. Também é importante que você coordene com ela, porque não adianta ter um teste A/B configurado em Modular Pages se esse teste não inicia no Firebase.
 
-[Template Test A/B: \[OB\] Test A/B name](https://confluence.tid.es/pages/viewpage.action?pageId=141016807)\\
+[Template Test A/B: \[OB\] Test A/B name](https://confluence.tid.es/pages/viewpage.action?pageId=141016807)

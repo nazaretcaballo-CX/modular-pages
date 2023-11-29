@@ -1,6 +1,6 @@
 # Criar páginas alternativas
 
-Da mesma forma que é possível configurar [módulos alternativos](broken-reference), o mesmo acontece com as páginas.
+Da mesma forma que é possível configurar [módulos alternativos](como-crear-una-pagina-modular/contenido.md#como-criar-um-grupo-de-modulos-alternativos), o mesmo acontece com as páginas.
 
 Talvez seja necessário criar a mesma página, mas com uma aparência significativamente diferente, para um grupo de usuários.
 
@@ -33,7 +33,7 @@ _Para isso, Alice cria três páginas alternativas, uma para cada situação, à
 Para que o sistema avalie qual página exibe ao usuário do aplicativo, ele precisa classificar essas páginas.
 
 {% hint style="info" %}
-Lembre-se que \*\*o sistema avalia de cima para baixo\*\*, isto é, o primeiro que corresponder ao usuário, começando de cima, será o exibido no app, sem avaliar os seguintes.
+Lembre-se que **o sistema avalia de cima para baixo**, isto é, o primeiro que corresponder ao usuário, começando de cima, será o exibido no app, sem avaliar os seguintes.
 
 Tenha isso em mente ao decidir a ordem em que você colocará essas páginas.
 {% endhint %}
@@ -41,7 +41,7 @@ Tenha isso em mente ao decidir a ordem em que você colocará essas páginas.
 Mova as páginas com _Drag\&Drop_ e quando as tiver posicionadas como deseja, clique em **Save order.**
 
 {% hint style="warning" %}
-Você só pode ter uma página que \*\*não contenha públicos\*\* e essa página deve ser sempre \*\*a última\*\*. O sistema avisa se isso não for atendido e você tenta salvar um pedido incorreto.
+Você só pode ter uma página que **não contenha audiencias** e essa página deve ser sempre **a última**. O sistema avisa se isso não for atendido e você tenta salvar um pedido incorreto.
 {% endhint %}
 
 <figure><img src=".gitbook/assets/MovePages.gif" alt=""><figcaption></figcaption></figure>

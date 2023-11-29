@@ -1,6 +1,6 @@
 # Como testar o conteúdo
 
-Embora na seção [Vista prévia](broken-reference) você tenha conseguido ver como um teste começa, abaixo você pode aprender mais sobre esse processo de teste de conteúdo:
+Embora na seção [Vista prévia](como-crear-una-pagina-modular/vista-previa.md) você tenha conseguido ver como um teste começa, abaixo você pode aprender mais sobre esse processo de teste de conteúdo:
 
 ### Como publicar o conteúdo de um teste
 
@@ -17,7 +17,7 @@ Ao abrir a página modular, o conteúdo aparece dividido em duas abas para que v
 <figure><img src=".gitbook/assets/tabTestModularPages.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Você só poderá fazer alterações no conteúdo se estiver na aba \*\*Test\*\*. Use a outra aba para visualizar o conteúdo antes das alterações feitas no teste.
+Você só poderá fazer alterações no conteúdo se estiver na aba **Test**. Use a outra aba para visualizar o conteúdo antes das alterações feitas no teste.
 {% endhint %}
 
 Para **salvar as alterações** feitas em um teste **, mas não publicá-las,** clique em **Save test**:
@@ -29,7 +29,7 @@ Quando você tiver certeza de que o conteúdo que tem na aba **Test**, em todas 
 Clique em **Close** para retornar à tela principal das páginas modulares.
 
 {% hint style="success" %}
-:thumbsup:Na tela principal, você pode verificar se a etiqueta \*\*TEST\*\* desapareceu do estado da página modular.
+👍Na tela principal, você pode verificar se a etiqueta **TEST** desapareceu do estado da página modular.
 {% endhint %}
 
 ### Como eliminar um teste
