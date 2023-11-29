@@ -10,7 +10,7 @@ A partir de páginas modulares, é possível realizar um teste A/B para testar c
 
 ### Passos a seguir para criar um teste A/B em páginas modulares
 
-**Passo 1**. Para começar, você precisa ter permissões de criação de teste A/B no CMS. Se você não tiver, entre em contato com o CON para que ele possa entregá-lo a você 😉. Você também pode pedir ajuda ao seu OBPM ou pessoa de referência que você tem na Novum.
+**Passo 1**. Para começar, você precisa ter permissões de criação de teste A/B no CMS. Se você não tiver, entre em contato com o CON para que ele possa entregá-lo a você <img src="https://confluence.tid.es/s/24eubp/9012/15522zw/_/images/icons/emoticons/wink.svg" alt="(guiño)" data-size="line">. Você também pode pedir ajuda ao seu OBPM ou pessoa de referência que você tem na Novum.
 
 {% hint style="info" %}
 Não é uma permissão que você ativou por padrão, então se você nunca a solicitou, é normal que NÃO a tenha. 🙋🏾
@@ -34,7 +34,7 @@ Como você pode ver, outro módulo foi criado e agora cada um está identificado
 
 **Passo 6.** **IMPORTANTE**. As alterações ainda não foram trazidas para o PROD, porque para isso é necessário clicar em **Continue**, no passo **2 Content** onde você está. E finalizar a publicação, no passo 3, de toda a página modular.\\
 
-**IMPORTANTE **<mark style="color:red;">**⭐**</mark>
+![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg) **IMPORTANTE** ![(estrella roja)](https://confluence.tid.es/s/24eubp/9012/15522zw/\_/images/icons/emoticons/star\_red.svg)&#x20;
 
 Até que o teste seja lançado no Firebase, o usuário do app continuará vendo o que está em produção, isto é, o módulo de referência, independentemente de o teste já ter sido configurado em Modular pages. Por isso é de vital importância que você se coordene com a equipe de Digital Analytics para saber quando o teste começará a ser exibido. O bom é que você pode deixá-lo pronto no CMS de Modular pages para quando o DA puder ativá-lo no Firebase.
 
